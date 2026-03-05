@@ -18,3 +18,5 @@ app.use("/api/v1/example", exampleRouter);
 app.listen(PORT, () => {
   logger.info(`Server is running on port ${PORT}`);
 });
+
+export default app;

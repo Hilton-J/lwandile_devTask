@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
-    "server": "ts-node-dev --respawn --transpile-only server/index.ts"
+    "server": "ts-node-dev --respawn --transpile-only api/index.ts"
   },
   "keywords": [],
   "author": "",
