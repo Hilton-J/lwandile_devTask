@@ -12,7 +12,7 @@ app.get("/", (req: Request, res: Response) => {
   res.send("Hello World!");
 });
 
-app.use("/api/v1/example", exampleRouter);
+app.use("/api/v1/sort", exampleRouter);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
